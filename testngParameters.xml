@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name ="Sanity">
+
+<test name="sanityRegression">
+
+<parameter name="Username" value="avi.gupta">
+
+
+<parameter name="Password" value="cspl@1234"></parameter>
+
+</parameter>
+
+<classes>
+
+
+<class name="selenium.TestNGParameters">
+
+
+</class>
+
+
+</classes>
+
+
+</test>
+
+
+</suite>

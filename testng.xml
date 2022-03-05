@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods">
+  
+  <test name="tests">
+  
+  
+  <classes>
+  
+  <class name="dummy.inkTest">
+  
+  <methods>
+  
+  
+  <include name="Test2">
+  
+  
+  </include>
+  
+  
+  </methods>
+  
+  
+  </class>
+  
+  <class name="dummy.blinkTest">
+  
+  <methods>
+  
+  
+  <exclude name="Test2">
+  
+  
+  
+  </exclude>
+  
+  
+  </methods>
+  
+  </class>
+  
+  </classes>
+  
+  
+  </test>
+  
+</suite> <!-- Suite -->
