@@ -24,6 +24,8 @@ public class Abc {
 
 		System.out.println("partiall comment added");
 		
+		System.out.println("partiall comment added");
+		
 	}
 	
 	
